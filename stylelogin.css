@@ -1,0 +1,103 @@
+/*{-webkit-box-sizing: border-box}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@700&display=swap');
+body{
+    background: #202a32;
+    font-family: Arial;
+}
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid #00baff;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+input [type=""],[type="text"] ,[type="password"] {
+    width: 300px;
+    margin-bottom : 20px;
+     height: 60px;
+     margin-left: 80px;
+     border: 1px solid #00baff;
+     border-radius: 10px;
+     outline: none;
+}
+input [type=""], [type="checkbox"]  {
+    margin: 15px 0 20px 80px;
+}
+p{
+    color: #fff7f7;
+}
+
+input [type=""], [type="checkbox"] :after {
+    content: "Remember me";
+    color: #ff1e1e;
+    line-height: 1;
+    position: absolute;
+    left: 560px;
+   
+}
+input [type=""],[type="submit"]  {
+    width: 150px;
+     height: 60px;
+     margin-left: 150px;
+     border: 1px solid #00baff;
+     border-radius: 10px;
+     color: #000000;
+     font-size: 20px;
+     outline: none;
+     transition: all 0.5s;
+}
+input [type=""],[type="submit"]:hover  {
+    width: 150px;
+     height: 60px;
+     margin-left: 150px;
+     border: 1px solid #020303;
+     background: #000000;
+     border-radius: 10px;
+     color: #ffffff;
+     font-size: 30px;
+     outline: none;
+     transition: all 0.5s;
+}
+a{
+    
+    text-decoration: none;
+    width: 15px;
+    height: 30px;
+    margin-left: 82%;
+    
+    border-radius: 12px;
+    color: #ebebeb;
+    font-size: 30px;
+   
+   
+   
+}
+.gg{
+    height: 40px;
+    border: 1px solid #00baff;
+    padding: 15px;
+    font-size: 15px;
+    color: #000000;
+    background: #ebebeb;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.gg:hover {
+    height: 40px;
+    border: 1px solid #00baff;
+    padding: 15px;
+    font-size: 15px;
+    color: #ebebeb;
+    background: #00090c;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
